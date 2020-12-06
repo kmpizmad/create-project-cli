@@ -16,6 +16,7 @@
   },
   "scripts": {
     "build": "tsc --project .",
+    "git": "yarn build && git add .",
     "start": "yarn build && create-project"
   },
   "dependencies": {
