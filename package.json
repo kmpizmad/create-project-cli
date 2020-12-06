@@ -1,0 +1,30 @@
+{
+  "author": "Nagy Viktor",
+  "license": "MIT",
+  "name": "create-project-cli",
+  "version": "1.0.0",
+  "description": "CLI for creating a new project",
+  "keywords": [
+    "create",
+    "project",
+    "create-project",
+    "cli"
+  ],
+  "bin": {
+    "cp": "bin/index.js",
+    "create-project": "bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc --project .",
+    "start": "yarn build && create-project"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/commander": "^2.12.2",
+    "@types/node": "^14.14.10"
+  }
+}
