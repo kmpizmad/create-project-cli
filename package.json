@@ -20,7 +20,7 @@
     "start": "yarn build && create-project"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
+    "chalk": "^4.1.1",
     "commander": "^6.2.0"
   },
   "devDependencies": {
